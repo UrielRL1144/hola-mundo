@@ -1,4 +1,4 @@
-def sumar_cualquier_cantidad_numeros():
+def sumar_cualquier_cantidad_numeros_enteros():
     entrada = input("Es importante que solo sean número enteros, especificar sin número decimal: ")
     numeros_str = entrada.strip().split()
 
