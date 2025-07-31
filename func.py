@@ -1,5 +1,5 @@
 def sumar_cualquier_cantidad_numeros():
-    entrada = input("Ingresa los números separados por espacio (puede ser cualquier cantidad): ")
+    entrada = input("Es importante que solo sean número enteros, especificar sin número decimal: ")
     numeros_str = entrada.strip().split()
 
     try:
